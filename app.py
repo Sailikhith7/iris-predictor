@@ -52,5 +52,5 @@ st.write(f"Based on these measurements, the flower is an **Iris {predicted_speci
 
 # Display the image using the URL from our dictionary
 st.image(IMAGE_URLS[predicted_species], caption=f"Iris {predicted_species.capitalize()}", use_container_width=True)
-```eof
+
 

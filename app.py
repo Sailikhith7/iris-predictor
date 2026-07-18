@@ -54,14 +54,3 @@ st.write(f"Based on these measurements, the flower is an **Iris {predicted_speci
 st.image(IMAGE_URLS[predicted_species], caption=f"Iris {predicted_species.capitalize()}", use_container_width=True)
 ```eof
 
-### How to push this update to your live app
-
-If you already deployed your app to Streamlit Community Cloud (via GitHub), pushing this update is incredibly easy:
-
-1.  Save the updated `app.py` file on your computer.
-2.  Go to your GitHub repository in your web browser.
-3.  Click on your `app.py` file.
-4.  Click the **pencil icon** (Edit this file) in the top right corner of the file box.
-5.  Delete the old code, paste in this new code, and click the green **Commit changes** button.
-
-That's it! Streamlit constantly watches your GitHub repository. Within about 30 seconds of you clicking "Commit," your live website will automatically refresh and start showing the flower images.
